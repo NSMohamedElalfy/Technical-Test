@@ -16,12 +16,6 @@
 		3871758E1F624C3F00620320 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3871758C1F624C3F00620320 /* LaunchScreen.storyboard */; };
 		387175991F624C3F00620320 /* TO_DO_list_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387175981F624C3F00620320 /* TO_DO_list_appTests.swift */; };
 		387175A41F624C3F00620320 /* TO_DO_list_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387175A31F624C3F00620320 /* TO_DO_list_appUITests.swift */; };
-		387175B71F6251D900620320 /* ApplicationCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387175B61F6251D900620320 /* ApplicationCoordinator.swift */; };
-		387175B91F62526400620320 /* PendingTasksCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387175B81F62526400620320 /* PendingTasksCoordinator.swift */; };
-		387175BB1F62528400620320 /* DoneTasksCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387175BA1F62528400620320 /* DoneTasksCoordinator.swift */; };
-		387175BE1F6255CA00620320 /* GenericTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387175BD1F6255CA00620320 /* GenericTableViewController.swift */; };
-		387175C31F6263A400620320 /* ClosureButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387175C21F6263A400620320 /* ClosureButton.swift */; };
-		387176051F627DFB00620320 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387176041F627DFB00620320 /* Coordinator.swift */; };
 		38858CAF1F6346A300A606D6 /* Task+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38858CAD1F6346A300A606D6 /* Task+CoreDataClass.swift */; };
 		38858CB01F6346A300A606D6 /* Task+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38858CAE1F6346A300A606D6 /* Task+CoreDataProperties.swift */; };
 		38FFB9DF1F63084E004A34C1 /* PendingTasksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38FFB9DE1F63084E004A34C1 /* PendingTasksViewController.swift */; };
@@ -63,12 +57,6 @@
 		3871759F1F624C3F00620320 /* TO-DO list appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TO-DO list appUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		387175A31F624C3F00620320 /* TO_DO_list_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TO_DO_list_appUITests.swift; sourceTree = "<group>"; };
 		387175A51F624C3F00620320 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		387175B61F6251D900620320 /* ApplicationCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApplicationCoordinator.swift; sourceTree = "<group>"; };
-		387175B81F62526400620320 /* PendingTasksCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PendingTasksCoordinator.swift; sourceTree = "<group>"; };
-		387175BA1F62528400620320 /* DoneTasksCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DoneTasksCoordinator.swift; sourceTree = "<group>"; };
-		387175BD1F6255CA00620320 /* GenericTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GenericTableViewController.swift; sourceTree = "<group>"; };
-		387175C21F6263A400620320 /* ClosureButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClosureButton.swift; sourceTree = "<group>"; };
-		387176041F627DFB00620320 /* Coordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
 		38858CAD1F6346A300A606D6 /* Task+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Task+CoreDataClass.swift"; path = "../Task+CoreDataClass.swift"; sourceTree = "<group>"; };
 		38858CAE1F6346A300A606D6 /* Task+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Task+CoreDataProperties.swift"; path = "../Task+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		38FFB9DE1F63084E004A34C1 /* PendingTasksViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PendingTasksViewController.swift; sourceTree = "<group>"; };
@@ -147,14 +135,10 @@
 			isa = PBXGroup;
 			children = (
 				38FFB9E41F630CAD004A34C1 /* Models */,
-				387176031F627DCF00620320 /* Protocols */,
 				387175C11F62639800620320 /* Views */,
 				387175BC1F6255BB00620320 /* Controllers */,
-				387175B51F6251C400620320 /* Coordinators */,
 				387175801F624C3F00620320 /* AppDelegate.swift */,
-				387175841F624C3F00620320 /* Main.storyboard */,
 				3871758A1F624C3F00620320 /* Assets.xcassets */,
-				3871758C1F624C3F00620320 /* LaunchScreen.storyboard */,
 				3871758F1F624C3F00620320 /* Info.plist */,
 				387175871F624C3F00620320 /* TO_DO_list_app.xcdatamodeld */,
 			);
@@ -179,20 +163,9 @@
 			path = "TO-DO list appUITests";
 			sourceTree = "<group>";
 		};
-		387175B51F6251C400620320 /* Coordinators */ = {
-			isa = PBXGroup;
-			children = (
-				387175B61F6251D900620320 /* ApplicationCoordinator.swift */,
-				387175B81F62526400620320 /* PendingTasksCoordinator.swift */,
-				387175BA1F62528400620320 /* DoneTasksCoordinator.swift */,
-			);
-			name = Coordinators;
-			sourceTree = "<group>";
-		};
 		387175BC1F6255BB00620320 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				387175BD1F6255CA00620320 /* GenericTableViewController.swift */,
 				38FFB9DE1F63084E004A34C1 /* PendingTasksViewController.swift */,
 				38FFB9E01F630873004A34C1 /* DoneTasksViewController.swift */,
 				38FFB9E21F630887004A34C1 /* AddNewTaskViewController.swift */,
@@ -203,17 +176,10 @@
 		387175C11F62639800620320 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				387175C21F6263A400620320 /* ClosureButton.swift */,
+				387175841F624C3F00620320 /* Main.storyboard */,
+				3871758C1F624C3F00620320 /* LaunchScreen.storyboard */,
 			);
 			name = Views;
-			sourceTree = "<group>";
-		};
-		387176031F627DCF00620320 /* Protocols */ = {
-			isa = PBXGroup;
-			children = (
-				387176041F627DFB00620320 /* Coordinator.swift */,
-			);
-			name = Protocols;
 			sourceTree = "<group>";
 		};
 		38FFB9E41F630CAD004A34C1 /* Models */ = {
@@ -536,16 +502,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				387176051F627DFB00620320 /* Coordinator.swift in Sources */,
 				38FFB9E31F630887004A34C1 /* AddNewTaskViewController.swift in Sources */,
 				38FFB9E11F630873004A34C1 /* DoneTasksViewController.swift in Sources */,
-				387175B91F62526400620320 /* PendingTasksCoordinator.swift in Sources */,
 				387175891F624C3F00620320 /* TO_DO_list_app.xcdatamodeld in Sources */,
-				387175BE1F6255CA00620320 /* GenericTableViewController.swift in Sources */,
 				387175811F624C3F00620320 /* AppDelegate.swift in Sources */,
-				387175B71F6251D900620320 /* ApplicationCoordinator.swift in Sources */,
-				387175BB1F62528400620320 /* DoneTasksCoordinator.swift in Sources */,
-				387175C31F6263A400620320 /* ClosureButton.swift in Sources */,
 				38858CB01F6346A300A606D6 /* Task+CoreDataProperties.swift in Sources */,
 				38858CAF1F6346A300A606D6 /* Task+CoreDataClass.swift in Sources */,
 				38FFB9DF1F63084E004A34C1 /* PendingTasksViewController.swift in Sources */,
